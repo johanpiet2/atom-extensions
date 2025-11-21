@@ -1,0 +1,23 @@
+{
+  "name": "iiif",
+  "version": "2.0.0",
+  "description": "IIIF (International Image Interoperability Framework) deep zoom image viewer with Cantaloupe integration and OpenSeadragon",
+  "authors": [
+    {
+      "name": "Johan Pieterse",
+      "email": "pieterse.johan3@gmail.com"
+    }
+  ],
+  "requires": [
+    "database",
+    "filesystem",
+    "logger"
+  ],
+  "provides": [
+    "iiif.viewer",
+    "iiif.manifest_generator",
+    "iiif.image_server"
+  ],
+  "atom_min_version": "2.9.0",
+  "php_min_version": "8.1.0"
+}

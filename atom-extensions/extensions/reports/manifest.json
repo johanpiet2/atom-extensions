@@ -1,0 +1,17 @@
+{
+  "name": "reports",
+  "version": "1.0.0",
+  "description": "Reporting services for AtoM (authority records, etc.).",
+  "authors": [
+    {
+      "name": "Johan Pieterse",
+      "email": "johan@theahg.co.za"
+    }
+  ],
+  "requires": [],
+  "provides": [
+    "reports.authority_record"
+  ],
+  "atom_min_version": "2.9.0",
+  "php_min_version": "8.1.0"
+}

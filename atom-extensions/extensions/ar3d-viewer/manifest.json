@@ -1,0 +1,17 @@
+{
+  "name": "ar3d-viewer",
+  "version": "1.0.0",
+  "description": "Bridge extension that exposes the legacy ar3DViewerPlugin (Three.js 3D model viewer) to the AtoM extension framework without changing its runtime behaviour.",
+  "authors": [
+    {
+      "name": "Johan Pieterse",
+      "email": "pieterse.johan3@gmail.com"
+    }
+  ],
+  "requires": [],
+  "provides": [
+    "3d.viewer"
+  ],
+  "atom_min_version": "2.9.0",
+  "php_min_version": "8.1.0"
+}

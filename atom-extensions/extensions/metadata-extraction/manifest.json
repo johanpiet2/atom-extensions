@@ -1,0 +1,21 @@
+{
+  "name": "metadata-extraction",
+  "version": "2.0.0",
+  "description": "Extract EXIF, IPTC, and XMP metadata from digital objects",
+  "authors": [
+    {
+      "name": "Johan Pieterse",
+      "email": "pieterse.johan3@gmail.com"
+    }
+  ],
+  "requires": [
+    "database",
+    "filesystem",
+    "logger"
+  ],
+  "provides": [
+    "metadata.extractor"
+  ],
+  "atom_min_version": "2.9.0",
+  "php_min_version": "8.1.0"
+}

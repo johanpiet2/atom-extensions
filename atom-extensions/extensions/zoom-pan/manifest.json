@@ -1,0 +1,16 @@
+{
+  "name": "zoom-pan",
+  "type": "atom-plugin",
+  "version": "1.0.0",
+
+  "public": {
+    "css": [
+      "zoom-pan.css"
+    ],
+    "js": [
+      "pdf.min.js",
+      "pdf.worker.min.js",
+      "zoom-pan.js"
+    ]
+  }
+}
